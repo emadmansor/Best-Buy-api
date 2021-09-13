@@ -11,7 +11,8 @@ public class pagebase {
 	//create constructor
 	public pagebase(WebDriver driver)
 	{
-		PageFactory.initElements(driver, this);;
+		PageFactory.initElements(driver, this);
+		//hello world
 	}
 
 }
